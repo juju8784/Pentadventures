@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9905066268cab146bb53af9f95c4cdd, type: 3}
+  m_Name: Vivienne 5
+  m_EditorClassIdentifier: 
+  characterName: Vivienne
+  description: Quick on her feet
+  artwork: {fileID: 0}
+  prefab: {fileID: 3960462077617037147, guid: 974740e0f72b5664ab80c778b0f7ac81, type: 3}
+  managerIndex: 7
+  characterClass: Slasher
+  passiveAbility: 
+  specialAbility: Vivienne dashes through enemies in 3 tiles in a line, dealing an
+    extra 50% damage. This ability uses movement instead of action points.
+  strength: 865
+  vitality: 450
+  dexterity: 965
+  intelligence: 400
+  wisdom: 1175
+  spirit: 400
+  actionPointRecovery: 4
+  starLevel: 5
+  actionsCost: 010000000300000001000000
+  upgradeDenied: {fileID: 6013316009023834547, guid: af0b7691185dde7489ca0161d4db7d7b, type: 3}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47fbd323e7b63e64d86ed9138e3cee35, type: 3}
+  m_Name: Socialite
+  m_EditorClassIdentifier: 
+  isActive: 1
+  title: Socialite
+  description: Find and add all playable characters to your party
+  goal:
+    goalType: 1
+    entityType: 0
+    encounterType: 1
+    starLevel: 0
+    requiredAmount: 7
+    currentAmount: 5
+  claimed: 0
+  copper: 100
+  silver: 100
+  electrum: 50
+  gold: 30
+  platinum: 10
+  wally: {fileID: 11400000, guid: 2386bdb0acce53642808a2fad585afd3, type: 2}

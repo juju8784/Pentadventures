@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9905066268cab146bb53af9f95c4cdd, type: 3}
+  m_Name: Alessia 2
+  m_EditorClassIdentifier: 
+  characterName: Alessia
+  description: Buff and tanky
+  artwork: {fileID: 0}
+  prefab: {fileID: 3960462077617037147, guid: 695e4d2bb6ec7b148872b45c79b0cb6e, type: 3}
+  managerIndex: 0
+  characterClass: Fighter
+  passiveAbility: Reduce incoming damage to herself by 15%
+  specialAbility: Applies 10% damage reduction to all allies within 2 tiles of her
+    for 3 turns
+  strength: 300
+  vitality: 475
+  dexterity: 180
+  intelligence: 300
+  wisdom: 170
+  spirit: 400
+  actionPointRecovery: 1
+  starLevel: 2
+  actionsCost: 010000000300000001000000
+  upgradeDenied: {fileID: 6013316009023834547, guid: af0b7691185dde7489ca0161d4db7d7b, type: 3}

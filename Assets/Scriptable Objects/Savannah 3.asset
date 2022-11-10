@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9905066268cab146bb53af9f95c4cdd, type: 3}
+  m_Name: Savannah 3
+  m_EditorClassIdentifier: 
+  characterName: Savannah
+  description: Poisoneer
+  artwork: {fileID: 0}
+  prefab: {fileID: 3960462077617037147, guid: ff2129027a7c77647826aae8c48a7c7c, type: 3}
+  managerIndex: 4
+  characterClass: Fighter
+  passiveAbility: 
+  specialAbility: She coats her sword with poison. It lasts for 5 turns and enemies
+    afflicted by this poison, take poison damage at the beginning of their turns
+    for 3 turns.
+  strength: 750
+  vitality: 500
+  dexterity: 600
+  intelligence: 200
+  wisdom: 400
+  spirit: 400
+  actionPointRecovery: 2
+  starLevel: 3
+  actionsCost: 010000000200000001000000
+  upgradeDenied: {fileID: 6013316009023834547, guid: af0b7691185dde7489ca0161d4db7d7b, type: 3}

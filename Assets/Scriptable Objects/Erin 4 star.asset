@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9905066268cab146bb53af9f95c4cdd, type: 3}
+  m_Name: Erin 4 star
+  m_EditorClassIdentifier: 
+  characterName: Erin
+  description: Massive Damage Dealer
+  artwork: {fileID: 0}
+  prefab: {fileID: 8360026871266835, guid: 9a1556abffc77134785c151facdffdf7, type: 3}
+  managerIndex: 1
+  characterClass: Ranger
+  passiveAbility: Increased damage with range
+  specialAbility: Piercing arrow that hits all enemies in a line
+  strength: 650
+  vitality: 400
+  dexterity: 775
+  intelligence: 450
+  wisdom: 800
+  spirit: 500
+  actionPointRecovery: 3
+  starLevel: 4
+  actionsCost: 010000000200000001000000
+  upgradeDenied: {fileID: 6013316009023834547, guid: af0b7691185dde7489ca0161d4db7d7b, type: 3}

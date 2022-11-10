@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47fbd323e7b63e64d86ed9138e3cee35, type: 3}
+  m_Name: Friends!
+  m_EditorClassIdentifier: 
+  isActive: 1
+  title: New Friendships
+  description: Find and add two characters to your party
+  goal:
+    goalType: 1
+    entityType: 0
+    encounterType: 1
+    starLevel: 0
+    requiredAmount: 2
+    currentAmount: 0
+  claimed: 1
+  copper: 30
+  silver: 20
+  electrum: 0
+  gold: 0
+  platinum: 0
+  wally: {fileID: 11400000, guid: 2386bdb0acce53642808a2fad585afd3, type: 2}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9905066268cab146bb53af9f95c4cdd, type: 3}
+  m_Name: Leonidas 1 STAR 1
+  m_EditorClassIdentifier: 
+  characterName: Leonidas
+  description: Spearman
+  artwork: {fileID: 0}
+  prefab: {fileID: 3960462077617037147, guid: 24cebd9379005b844bf5c8240ab05f8a, type: 3}
+  managerIndex: 3
+  characterClass: 
+  passiveAbility: Spear attacks build stacks in enemies. Whenever an enemy reaches
+    3 stacks, the spears explode, dealing magic damage to all enemies within 1 tile
+    distance.
+  specialAbility: Summons 6 - 12 magic stack spears and stacks them on top of the
+    stacked enemies, increasing the stack limit to 5 and forcing the stack explosion.
+    All leftover stack spears go to other enemies in the area.
+  strength: 200
+  vitality: 250
+  dexterity: 400
+  intelligence: 550
+  wisdom: 350
+  spirit: 400
+  actionPointRecovery: 2
+  starLevel: 1
+  actionsCost: 010000000300000001000000
+  upgradeDenied: {fileID: 6013316009023834547, guid: af0b7691185dde7489ca0161d4db7d7b, type: 3}
